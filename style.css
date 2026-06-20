@@ -186,6 +186,26 @@ a { color: inherit; text-decoration: none; }
 .skill h3 { font-size: 1.05rem; margin-bottom: 6px; color: var(--accent-dark); }
 .skill p { color: var(--ink-soft); font-size: 0.92rem; }
 
+/* ===== 連絡先 ===== */
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.contact__label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
 /* ===== フッター ===== */
 .footer {
   text-align: center;
